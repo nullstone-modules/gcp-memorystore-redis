@@ -1,0 +1,13 @@
+org_name: nullstone
+name: gcp-memorystore-redis
+friendly_name: Memorystore Redis
+description: Creates a redis instance hosted on GCP Memorystore
+category: datastore
+subcategory: ""
+provider_types:
+    - gcp
+platform: redis
+subplatform: memorystore
+type: ""
+appCategories: []
+is_public: true
