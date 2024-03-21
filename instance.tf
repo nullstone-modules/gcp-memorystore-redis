@@ -25,6 +25,4 @@ resource "google_redis_instance" "this" {
       }
     }
   }
-
-  depends_on = [google_service_networking_connection.private_vpc_connection]
 }
