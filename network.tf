@@ -13,7 +13,3 @@ locals {
 data "google_compute_network" "vpc" {
   name = local.vpc_name
 }
-
-data "google_compute_subnetwork" "private0" {
-  self_link = local.private_subnet_self_links[0]
-}
