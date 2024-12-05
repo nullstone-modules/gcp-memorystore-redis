@@ -25,4 +25,6 @@ resource "google_redis_instance" "this" {
       }
     }
   }
+
+  depends_on = [google_project_service.redis]
 }
